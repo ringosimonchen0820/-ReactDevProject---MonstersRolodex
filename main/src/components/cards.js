@@ -9,8 +9,14 @@ const Cards = (props) => {
         <div className='card-container'>
             <img alt='monster' src={`https://robohash.org/${props.data.id}?set=set2`}/>
             <h1>
-                {props.data.name}
+                {props.data.username}
             </h1>
+            <h2>
+                {props.data.name}
+            </h2>
+            <h3>
+                {props.data.email}
+            </h3>
         </div>
     )
 }
