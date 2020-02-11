@@ -1,7 +1,6 @@
 import React, { useState, useEffect, Component } from 'react';
 import './App.css';
 import axios from 'axios';
-
 import CardList from '../src/components/card-list';
 
 // function App() {
