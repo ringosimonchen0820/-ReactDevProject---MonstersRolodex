@@ -5,7 +5,7 @@ import axios from 'axios';
 import CardList from '../src/components/card-list';
 
 // function App() {
-//   const [monstersData, setMonstersData] = useState([]);
+//   //const [monstersData, setMonstersData] = useState([]);
   
 //   useEffect(() => {
 //     axios.get('https://jsonplaceholder.typicode.com/users')
@@ -32,7 +32,20 @@ class App extends Component {
     super();
 
     this.state = {
-      name: 'Simon'
+      monsters: [
+        {
+          name: 'Frankenstein',
+          id: 'asc1'
+        },
+        {
+          name: 'Drakula',
+          id: 'asc1'
+        },
+        {
+          name: 'Zombie',
+          id: 'asc1'
+        }
+      ]
     };
   }
   
@@ -40,11 +53,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {/* <CardList monsters={monstersData}/> */}
-          <p>Hello, {this.state.name}</p>
-          <button onClick={() => this.setState({name: 'Shu Fu'})}>Change Name</button>
-        </header>
+        {
+          this.state.monsters.map(monster => <h1 key={monster.id}> {monster.name} </h1>)
+        }
       </div>
     )
   }
