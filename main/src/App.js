@@ -38,11 +38,11 @@ class App extends Component {
         },
         {
           name: 'Drakula',
-          id: 'asc1'
+          id: 'asr3'
         },
         {
           name: 'Zombie',
-          id: 'asc1'
+          id: 'asw7'
         }
       ]
     };
@@ -59,5 +59,4 @@ class App extends Component {
     )
   }
 }
-
-export default App;
+ 
