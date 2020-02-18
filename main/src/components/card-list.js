@@ -1,9 +1,9 @@
 import React from 'react';
 
-// components
+//* components
 import Cards from './cards';
 
-// styles
+//* styles
 import './card-list.css';
 
 
