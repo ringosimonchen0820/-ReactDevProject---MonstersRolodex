@@ -8,11 +8,11 @@ import './card-list.css';
 
 
 const CardList = (props) => {
-    console.log(props.monsters);
+    console.log(props.monstersData);
     return (
         <div className='card-list'>
             {
-                props.monsters.map(data => {
+                props.monstersData.map(data => {
                     return (
                         <Cards 
                             key={data.id}

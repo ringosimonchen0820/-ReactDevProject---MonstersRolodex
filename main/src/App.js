@@ -45,11 +45,19 @@ class App extends Component {
           id: 'asw7'
         }
       ]
-    };
-
-    
+    }; 
   }
-  
+
+  componentDidMount(){
+    axios.get('https://jsonplaceholder.typicode.com/users')
+    .then(response => {
+      console.log(response.data);
+      this.setState({ monsters: response.data });
+    })
+    .catch(error => {
+      console.log(`no data ${error}`);
+    })
+  }
   
   render() {
     return (
@@ -61,4 +69,5 @@ class App extends Component {
     )
   }
 }
- 
+
+export default App;
