@@ -62,6 +62,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <input type="search" placeholder="Search Monsters"/>
         <CardList 
           monstersData={ this.state.monsters }
         /> 
