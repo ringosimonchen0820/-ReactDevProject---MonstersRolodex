@@ -4,7 +4,7 @@ import React from 'react';
 import Cards from './cards';
 
 //* styles
-import './card-list.css';
+import './card-list.style.css';
 
 
 const CardList = (props) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 //* styles
-import './cards.css';
+import './cards.style.css';
 
 const Cards = (props) => {
     console.log("Cards props:", props);
