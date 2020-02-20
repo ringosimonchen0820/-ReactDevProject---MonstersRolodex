@@ -39,7 +39,7 @@ class App extends Component {
   componentDidMount(){
     axios.get('https://jsonplaceholder.typicode.com/users')
     .then(response => {
-      console.log(response.data);
+      console.log(response.data.text);
       this.setState({ monsters: response.data });
     })
     .catch(error => {
