@@ -46,17 +46,32 @@ class App extends Component {
       console.log(`no data ${error}`);
     })
   }
-  
+
+  handleChanges = event => {
+    this.setState({
+      searchField: event.target.value
+    });
+    console.log(event.target.value);
+  }
+
   render() {
+    const { monsters, searchField } = this.state;
+      //* equvillent to :
+        //* const monsters = this.state.monsters;
+        //* const searchField = this .state.searchField;
+  
+    const filteredMonsters = monsters.filter(monster => 
+      monster.name.toLowerCase().includes(searchField.toLowerCase())
+      );
     return (
       <div className="App">
         <input 
           type="search" 
           placeholder="Search Monsters" 
-          onChange={e => this.setState({ searchField: e.target.value })}
+          onChange={this.handleChanges}
         />
         <CardList 
-          monstersData={ this.state.monsters }
+          monstersData={ filteredMonsters }
         /> 
       </div>
     )
