@@ -2,6 +2,7 @@ import React, { useState, useEffect, Component } from 'react';
 import './App.css';
 import axios from 'axios';
 import CardList from '../src/components/card-list';
+import SearchBox from '../src/components/search-box';
 
 // function App() {
 //   //const [monstersData, setMonstersData] = useState([]);
@@ -63,18 +64,18 @@ class App extends Component {
     const filteredMonsters = monsters.filter(monster => 
       monster.name.toLowerCase().includes(searchField.toLowerCase())
       );
+
     return (
       <div className="App">
-        <input 
-          type="search" 
-          placeholder="Search Monsters" 
-          onChange={this.handleChanges}
+        <SearchBox
+          placeholder="Search Monsters"
+          handleChange={this.handleChanges}
         />
         <CardList 
           monstersData={ filteredMonsters }
         /> 
       </div>
-    )
+    );
   }
 }
 
