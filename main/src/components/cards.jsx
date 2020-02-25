@@ -8,15 +8,15 @@ const Cards = (props) => {
     return (
         <div className='card-container'>
             <img alt='monster' src={`https://robohash.org/${props.data.id}?set=set2`}/>
-            <h1>
-                {props.data.username}
-            </h1>
             <h2>
-                {props.data.name}
+                {props.data.username}
             </h2>
             <h3>
-                {props.data.email}
+                {props.data.name}
             </h3>
+            <h4>
+                {props.data.email}
+            </h4>
         </div>
     )
 }
