@@ -1,18 +1,18 @@
 import React from 'react';
 
-//* components
+// components
 import Cards from './cards';
 
-//* styles
-import './card-list.style.css';
+// styles
+import './card-list.css';
 
 
 const CardList = (props) => {
-    console.log(props.monstersData);
+    console.log(props.monsters);
     return (
         <div className='card-list'>
             {
-                props.monstersData.map(data => {
+                props.monsters.map(data => {
                     return (
                         <Cards 
                             key={data.id}
