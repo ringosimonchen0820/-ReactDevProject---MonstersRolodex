@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/-ReactDevProject---MonstersRolodex/static/css/main.eef7fd5c.chunk.css",
+    "main.css": "/-ReactDevProject---MonstersRolodex/static/css/main.1b61be0d.chunk.css",
     "main.js": "/-ReactDevProject---MonstersRolodex/static/js/main.62f3a8c8.chunk.js",
     "main.js.map": "/-ReactDevProject---MonstersRolodex/static/js/main.62f3a8c8.chunk.js.map",
     "runtime-main.js": "/-ReactDevProject---MonstersRolodex/static/js/runtime-main.5df2c0eb.js",
@@ -8,15 +8,15 @@
     "static/js/2.882d4128.chunk.js": "/-ReactDevProject---MonstersRolodex/static/js/2.882d4128.chunk.js",
     "static/js/2.882d4128.chunk.js.map": "/-ReactDevProject---MonstersRolodex/static/js/2.882d4128.chunk.js.map",
     "index.html": "/-ReactDevProject---MonstersRolodex/index.html",
-    "precache-manifest.bfeb795ebbd3e78839d98000ef43b3a1.js": "/-ReactDevProject---MonstersRolodex/precache-manifest.bfeb795ebbd3e78839d98000ef43b3a1.js",
+    "precache-manifest.2bbe4fe35878756a4a6e58db4e4068fe.js": "/-ReactDevProject---MonstersRolodex/precache-manifest.2bbe4fe35878756a4a6e58db4e4068fe.js",
     "service-worker.js": "/-ReactDevProject---MonstersRolodex/service-worker.js",
-    "static/css/main.eef7fd5c.chunk.css.map": "/-ReactDevProject---MonstersRolodex/static/css/main.eef7fd5c.chunk.css.map",
+    "static/css/main.1b61be0d.chunk.css.map": "/-ReactDevProject---MonstersRolodex/static/css/main.1b61be0d.chunk.css.map",
     "static/js/2.882d4128.chunk.js.LICENSE.txt": "/-ReactDevProject---MonstersRolodex/static/js/2.882d4128.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5df2c0eb.js",
     "static/js/2.882d4128.chunk.js",
-    "static/css/main.eef7fd5c.chunk.css",
+    "static/css/main.1b61be0d.chunk.css",
     "static/js/main.62f3a8c8.chunk.js"
   ]
 }
